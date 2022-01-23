@@ -1,0 +1,26 @@
+.blackBox {
+    background-color: #010100;
+    color: #F9F6F0;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.blackBox--light{
+    background-color: #C4AE78;
+    color: #010100;
+    padding: 30px 30px;
+}
+
+.blackBox__header{
+    text-shadow: 2px 2px 4px #6F5B3E;
+}
+
+.blackBox__skills{
+    font-size: 25px;
+}
+
+.blackBox__skills--dimmed{
+    font-size: 15px;
+    color:darkgray
+}
+

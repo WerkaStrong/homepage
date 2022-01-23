@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html {
+    box-sizing: border-box;
+    background-color: #010100;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lato";
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.navigation ul {
+    padding-top: auto;
+    text-align: left;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #F9F6F0;
+}
+
+a:visited {
+    color: #F9F6F0;
+}
+
+a:focus {
+    color: black;
+}
+
+a:hover {
+    background-color: #6F5B3E;
+    padding: 5px;
+}
+
+a:active {
+    color: chocolate;
+}
+
+.img-rounded {
+    border-radius: 50%;
+    border: 6px solid #F9F6F0;
+}
+
+.brownBox {
+    background-color: #6F5B3E;
+    color: #F9F6F0;
+    padding: 10px;
+}
+
+.container {
+    overflow-x: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.light {
+    color: black;
+    background-color: #F9F6F0;
+}
+
+
+.table {
+    border-collapse: collapse;
+    max-width: 100%;
+    margin: auto;
+    overflow-x: scroll;
+}
+
+.tableCell {
+    border: 1px solid #352b1d;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tableRow {
+    background-color: #e2cc93;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #C4AE78;
+}
+
+.tableRow:hover {
+    background-color: #fcdf8fab;
+}
+
+.tableHeader {
+    background-color: #6F5B3E;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-basic {
+    list-style: none;
+    text-align: center;
+    background-color: #6F5B3E;
+    color: #F9F6F0;
+}
