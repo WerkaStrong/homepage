@@ -1,4 +1,4 @@
-.brownBox {
+.brownBox--dark {
     background-color: #6F5B3E;
     color: #F9F6F0;
     padding: 10px;
@@ -8,3 +8,4 @@
     color: black;
     background-color: #F9F6F0;
 }
+

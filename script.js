@@ -1,16 +1,25 @@
-console.log("Witam Cię na mojej stronie");
-
-let button = document.querySelector(".przycisk");
-let brown = document.querySelector(".brown");
-let themeName = document.querySelector(".themeName");
-
-button.addEventListener("click", () => {
-    brown.classList.toggle("light");
-
-    if (brown.classList.contains("light")) {
-        themeName.innerText = "ciemny";
-    } else {
-        themeName.innerText = "jasny";
+{
+    const welcome = () => {
+        console.log("Witam Cię na mojej stronie");
     }
-});
 
+    const toogleBackground = () => {
+        const brown = document.querySelector(".brownBox");
+        const themeName = document.querySelector(".themeName");
+
+        brown.classList.toggle("light");
+        themeName.innerText = brown.classList.contains("jasny" ? "ciemny" : "jasny");
+    };
+
+
+
+    const init = () => {
+        const onChangeBackgroundButton = document.querySelector(".button_background");
+
+
+        onChangeBackgroundButton.addEventListener("click", toogleBackground);
+        welcome();
+    };
+
+    init();
+}
