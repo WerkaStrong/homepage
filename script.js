@@ -11,10 +11,8 @@
         themeName.innerText = brown.classList.contains("jasny" ? "ciemny" : "jasny");
     };
 
-
-
     const init = () => {
-        const onChangeBackgroundButton = document.querySelector(".button_background");
+        const onChangeBackgroundButton = document.querySelector(".js-button");
 
 
         onChangeBackgroundButton.addEventListener("click", toogleBackground);

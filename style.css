@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 html {
     box-sizing: border-box;
     background-color: #010100;
@@ -43,7 +44,7 @@ a:active {
     color: chocolate;
 }
 
-.img-rounded {
+.imgRounded {
     border-radius: 50%;
     border: 6px solid #F9F6F0;
 }
@@ -73,32 +74,32 @@ a:active {
     overflow-x: scroll;
 }
 
-.tableCell {
+.table__cell {
     border: 1px solid #352b1d;
     padding: 20px;
     text-align: center;
     vertical-align: middle;
 }
 
-.tableRow {
+.table__row {
     background-color: #e2cc93;
 }
 
-.tableRow:nth-child(even) {
+.table__row:nth-child(even) {
     background-color: #C4AE78;
 }
 
-.tableRow:hover {
+.table__row:hover {
     background-color: #fcdf8fab;
 }
 
-.tableHeader {
+.table__cell--header {
     background-color: #6F5B3E;
     color: white;
     font-weight: bold;
 }
 
-.footer-basic {
+.footerBasic {
     list-style: none;
     text-align: center;
     background-color: #6F5B3E;
